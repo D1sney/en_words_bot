@@ -1,0 +1,19 @@
+# Telegram Bot
+aiogram==3.15.0
+
+# Database
+SQLAlchemy==2.0.36
+alembic==1.14.0
+aiosqlite==0.20.0  # Для SQLite async
+# asyncpg==0.30.0  # Раскомментируй для PostgreSQL
+
+# AI
+openai==1.57.4
+
+# Config & Utils
+python-dotenv==1.0.1
+pydantic>=2.4.1,<2.10
+pydantic-settings>=2.0.0
+
+# Scheduler
+APScheduler==3.10.4
